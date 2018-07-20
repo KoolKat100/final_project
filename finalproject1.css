@@ -64,7 +64,6 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
->> a59722c6e6e4bbe5a89b812388e620e9cc19dc99
 /* body {
 
 0%  {background: #3bcee5;}
@@ -75,8 +74,8 @@ tr:nth-child(even) {
  grey
 60%  {background: white;}
 } */
-.button1 {
-    background-color: #3bcee5;
+.button {
+    background-color: #57f25c;
     border: none;
     color: white;
     padding: 15px 25px;
@@ -93,4 +92,4 @@ tr:nth-child(even) {
     font-size: 16px;
     cursor: none;
 }
-	#current_day { background-color:yellow; font-weight: bold; }
+	/* #current_day { background-color:yellow; font-weight: bold; } */
