@@ -23,18 +23,3 @@
 // TODO(DEVELOPER): Write the blurOffensiveImages Function here.
 
 // TODO(DEVELOPER): Write the sendNotifications Function here.
-
-
-<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCQMaw2DG8kqqxdXVrVgGgw5ZjuTKihap0",
-    authDomain: "friendlychat-e8043.firebaseapp.com",
-    databaseURL: "https://friendlychat-e8043.firebaseio.com",
-    projectId: "friendlychat-e8043",
-    storageBucket: "friendlychat-e8043.appspot.com",
-    messagingSenderId: "699290224390"
-  };
-  firebase.initializeApp(config);
-</script>
