@@ -138,9 +138,5 @@ function createMarker(obj) {
     infos.push(infowindow);
 }
 
-function voteForOption() {
-  
-}
-
 // initialization
 google.maps.event.addDomListener(window, 'load', initialize);
