@@ -1,6 +1,6 @@
 body{
-	font-family: inherit;
-	font-size: 20px;
+	font-family: verdana;
+	font-size: 18px;
 	color: black;
 	background-color: white;
 	margin: 0px;
@@ -26,7 +26,7 @@ b {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 25px 216.85px;
+    padding: 25px 216.8px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -46,6 +46,25 @@ p {
 	margin-right: 10%;
 }
 
+<<<<<<< HEAD
+=======
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+>>>>>>> a59722c6e6e4bbe5a89b812388e620e9cc19dc99
 /* body {
 
 0%  {background: #3bcee5;}
