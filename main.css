@@ -54,6 +54,8 @@ header .stuts span {
     position: relative;
     width: 900px;
 }
+h5{ color: black;  
+}
 .actions {
     background-color: #FFFFFF;
     bottom: 30px;
