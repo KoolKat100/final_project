@@ -11,15 +11,11 @@ h1, h2{
 	text-align: center;
 		}
 
-
 b {
 	color: #3bcee5;
 	background-color: transparent;
 	text-decoration: underline;
-
-			}
-
-
+	}
 
 .topnav {
     background-color: #3bcee5;
@@ -32,15 +28,13 @@ b {
     text-align: center;
     padding: 25px 216.8px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18.2px;
 }
-
 
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
-
 
 .topnav a.active {
     background-color: #57f25c;
@@ -52,6 +46,8 @@ p {
 	margin-right: 10%;
 }
 
+<<<<<<< HEAD
+=======
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -68,6 +64,7 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
+>> a59722c6e6e4bbe5a89b812388e620e9cc19dc99
 /* body {
 
 0%  {background: #3bcee5;}
@@ -96,3 +93,4 @@ tr:nth-child(even) {
     font-size: 16px;
     cursor: none;
 }
+	#current_day { background-color:yellow; font-weight: bold; }
