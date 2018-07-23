@@ -143,9 +143,8 @@ function voteForOption() {
     var address = document.getElementById("gmap_where").value;
 
     // document.getElementById("VoteId").innerHTML=address;
-    window.location.href = "voting1.html";
+    document.getElementById("myText").value = "";
     console.log(address)
-
 }
 
 // initialization
