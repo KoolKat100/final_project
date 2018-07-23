@@ -144,9 +144,6 @@ function voteForOption() {
 
     // document.getElementById("VoteId").innerHTML=address;
     window.location.href = "voting1.html";
-<<<<<<< HEAD
-    console.log(address)
-=======
     //
    var vote = document.createElement("LI");
    var registerVote = document.createTextNode(address);
@@ -155,7 +152,6 @@ function voteForOption() {
 
    vote.appendChild(address)
    document.getElementById("places").appendChild(vote);
-
 
 
 
