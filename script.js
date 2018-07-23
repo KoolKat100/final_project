@@ -145,7 +145,6 @@ function voteForOption() {
     // document.getElementById("VoteId").innerHTML=address;
     window.location.href = "voting1.html";
     console.log(address)
-
 }
 
 // initialization
