@@ -124,9 +124,19 @@
     </script>
     <script>
     alert("Where do you want to go? Enter your desired location, city, and state.")
+
+
+    function doit_onkeypress(event){
+               if (event.keyCode == 13 || event.which == 13){
+                   alert("You are clicked");
+               }
+           }
+
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK3xXoSQGTplPbFlaqRE7LgEWQGDBXdMU&libraries=places&callback=initMap"
         async defer></script>
+
+    <button class="button2">You Chose <!--hep meg plz-->>
   </body>
 </html>
 
