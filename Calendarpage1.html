@@ -30,7 +30,7 @@
 
 	<p>Welcome to the Calendar!</p>
 	<p>Please select which day you would like to hang out with your friends.</p>
-	<h2><center><bold>Monthly Calendar</bold></center></h2>
+
 
 
 
@@ -53,13 +53,13 @@ var startingDay = new Date(this.getFullYear(), this.getMonth(), 1).getDay();
 calendarTable += '<caption>' + this.getMonthNames()[this.getMonth()] + '&nbsp;' + this.getFullYear() + '</caption>';
 calendarTable += '<tr><td colspan="7"></td></tr>';
 calendarTable += '<tr>';
-calendarTable += '<td><font color="#B42600">S</font></td>';
-calendarTable += '<td>M</td>';
-calendarTable += '<td>T</td>';
-calendarTable += '<td>W</td>';
-calendarTable += '<td>TH</td>';
-calendarTable += '<td>F</td>';
-calendarTable += '<td>S</td></tr>';
+calendarTable += '<td>Sunday</td>';
+calendarTable += '<td>Monday</td>';
+calendarTable += '<td>Tuesday</td>';
+calendarTable += '<td>Wednesday</td>';
+calendarTable += '<td>Thursday</td>';
+calendarTable += '<td>Friday</td>';
+calendarTable += '<td>Saturday</td></tr>';
 //Lets create blank boxes until we get to the day which actually starts the month-->
 for ( var i = 0; i < startingDay; i++ )
 { calendarTable += '<td>&nbsp;</td>'; }
