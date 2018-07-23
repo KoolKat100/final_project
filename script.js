@@ -139,12 +139,22 @@ function createMarker(obj) {
 }
 
 function voteForOption() {
-    alert("hi")
+    // alert("hi")
     var address = document.getElementById("gmap_where").value;
 
     // document.getElementById("VoteId").innerHTML=address;
     window.location.href = "voting1.html";
-    console.log(address)
+    //
+   var vote = document.createElement("LI");
+   var registerVote = document.createTextNode(address);
+   alert(address);
+   vote.appendChild(registerVote);
+
+   vote.appendChild(address)
+   document.getElementById("places").appendChild(vote);
+
+
+
 
 }
 
