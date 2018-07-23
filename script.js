@@ -138,15 +138,15 @@ function createMarker(obj) {
     infos.push(infowindow);
 }
 
-// function voteForOption() {
-//     // alert("hi")
-//     var address = document.getElementById("gmap_where").value;
-//
-//     // document.getElementById("VoteId").innerHTML=address;
-//     window.location.href = "voting1.html";
-//     console.log(address)
-//
-// }
+function voteForOption() {
+    alert("hi")
+    var address = document.getElementById("gmap_where").value;
+
+    // document.getElementById("VoteId").innerHTML=address;
+    window.location.href = "voting1.html";
+    console.log(address)
+
+}
 
 // initialization
 google.maps.event.addDomListener(window, 'load', initialize);
