@@ -248,11 +248,17 @@ limitations under the License.
           <button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-password-reset" name="verify-email">Send Password Reset Email</button>
 
           <!-- Container where we'll display the user details -->
-          <div hidden class="quickstart-user-details-container">
+          <div class="quickstart-user-details-container">
             Firebase sign-in status: <span id="quickstart-sign-in-status">Unknown</span>
             <div>Firebase auth <code>currentUser</code> object value:</div>
             <pre><code id="quickstart-account-details"</code></pre>
           </div>
+          <!-- <script>
+          if (quickstart-sign-in-status == "Signed In"){
+            window.location.replace('href', "Calendar1.html");
+
+          }
+          </script> -->
         </div>
       </div>
 
