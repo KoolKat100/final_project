@@ -148,9 +148,6 @@ function voteForOption() {
     console.log(address)
 =======
     window.location.href = "voting1.html";
-<<<<<<< HEAD
-    console.log(address)
-=======
     //
    var vote = document.createElement("LI");
    var registerVote = document.createTextNode(address);
@@ -163,8 +160,11 @@ function voteForOption() {
 
 
 
+<<<<<<< HEAD
 
 >>>>>>> a0631872067e734001f8284870b35274b6c0c39c
+=======
+>>>>>>> e05f9f475c061d095c99249099f0d837f10ce405
 }
 
 // initialization

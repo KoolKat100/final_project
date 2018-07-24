@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Place ID Finder</title>
+    <title>Finster Map</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <style>
@@ -124,9 +124,22 @@
     </script>
     <script>
     alert("Where do you want to go? Enter your desired location, city, and state.")
+
+
+    function doit_onkeypress(event){
+               if (event.keyCode == 13 || event.which == 13){
+                   alert("You are clicked");
+               }
+           }
+
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK3xXoSQGTplPbFlaqRE7LgEWQGDBXdMU&libraries=places&callback=initMap"
         async defer></script>
+
+<<<<<<< HEAD
+    <button class="button2">You Chose <!--hep meg plz-->>
+=======
+>>>>>>> eb9c0c00c5ea653401bce125b22e7753c071bb72
   </body>
 </html>
 
@@ -142,9 +155,7 @@
         <h1>
           <center><img src="finster (1).png" alt="Finster Logo" ></center>
         </h1>
-        <h5>
-          <center>By: Alicia Silverio, Carrington Parks, Dhyuti Gopalakrishna, Mena Sengupta</center>
-        </h5>
+
         <div class="topnav">
           <center><a class="active" href="finalproject1.html">Home</a></center>
           <center><a href="Calendarpage1.html">Calendar</a></center>
@@ -191,7 +202,6 @@
                 </div>
                 <input type="hidden" id="lat" name="lat" value="32.1656" />
                 <input type="hidden" id="lng" name="lng" value="82.9001" />
-<<<<<<< HEAD
                 <div id="button1" class="button" onclick="findPlaces(); return false;">Search for objects</div>
                 <div id="button3" class="button" onclick="voteForOption(); return false;">Vote For This Place</div>
 <<<<<<< HEAD
@@ -199,17 +209,9 @@
 =======
                 <input type="text" id="myText" value="Some text...">
                 <button onclick="myFunction()">Try it</button>
-=======
                 <div id="button1" class="button" onclick="findPlaces(); return false">Search for objects</div>
                 <div id="button3" class="button" onclick="voteForOption()">Vote For This Place</div>
->>>>>>> 8c24d1c93e4808e7ae9cebf4d24cb6e3fd8e9b7a
 
-                <p id="demo"></p>
-
-                <script>
-                function myFunction() {
-                    var x = document.getElementById("myText").value;
-                    document.getElementById("demo").innerHTML = x;
                 }
                 </script>
 >>>>>>> a0631872067e734001f8284870b35274b6c0c39c
