@@ -209,9 +209,17 @@ limitations under the License.
 
   <!-- Header section containing title -->
   <header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
-    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
-      <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--8-col-desktop">
-        <a <h3><img src="https://raw.githubusercontent.com/KoolKat100/final_project/master/finster%20(1).PNG" alt="Finster Logo" ></h3></a>
+    <div class="mdl-cell mdl-cell--12-col mdl-cell--15-col-tablet mdl-grid">
+      <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--15-col-tablet mdl-cell--8-col-desktop">
+        <a <h3><img src="https://raw.githubusercontent.com/KoolKat100/final_project/master/finster%20(1).PNG" class="logo" alt="Finster Logo"></h3></a>
+        <style>
+        .logo{
+          max-width: 70%;
+          height: auto;
+          position: relative; /* Declared position allows for location changes */
+          top: -20px;
+        }
+        </style>
       </div>
     </div>
   </header>
@@ -240,11 +248,17 @@ limitations under the License.
           <button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-password-reset" name="verify-email">Send Password Reset Email</button>
 
           <!-- Container where we'll display the user details -->
-          <div hidden class="quickstart-user-details-container">
+          <div class="quickstart-user-details-container">
             Firebase sign-in status: <span id="quickstart-sign-in-status">Unknown</span>
             <div>Firebase auth <code>currentUser</code> object value:</div>
             <pre><code id="quickstart-account-details"</code></pre>
           </div>
+          <!-- <script>
+          if (quickstart-sign-in-status == "Signed In"){
+            window.location.replace('href', "Calendar1.html");
+
+          }
+          </script> -->
         </div>
       </div>
 
