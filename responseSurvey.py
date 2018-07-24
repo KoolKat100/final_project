@@ -30,7 +30,7 @@ while True:
         print(Survey)
 
     else:
-        print("Sorry,that wasn't an option. Please try again.")
+        print("Sorry,that w asn't an option. Please try again.")
 
     areWeFinished = input("Has everyone finished the survey? y/n ")
     if areWeFinished == 'y':

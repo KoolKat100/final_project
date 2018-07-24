@@ -49,6 +49,7 @@ function isUserSignedIn() {
   return !!firebase.auth().currentUser;
 }
 
+/*
 // Loads chat messages history and listens for upcoming ones.
 function loadMessages() {
   // Loads the last 12 messages and listen for new ones.
@@ -108,6 +109,7 @@ function saveMessagingDeviceToken() {
       firebase.database().ref('/fcmTokens').child(currentToken)
           .set(firebase.auth().currentUser.uid);
     } else {
+      console.log('Got FCM device token:', currentToken);
       // Need to request permissions to show notifications.
       requestNotificationsPermissions();
     }
@@ -126,7 +128,7 @@ function requestNotificationsPermissions() {
     console.error('Unable to get permission to notify.', error);
   });
 }
-
+*/
 // Triggered when a file is selected via the media picker.
 function onMediaFileSelected(event) {
   event.preventDefault();
@@ -216,7 +218,7 @@ function resetMaterialTextfield(element) {
   element.value = '';
   element.parentNode.MaterialTextfield.boundUpdateClassesHandler();
 }
-
+/*
 // Template for messages.
 var MESSAGE_TEMPLATE =
     '<div class="message-container">' +
@@ -262,7 +264,7 @@ function displayMessage(key, name, text, picUrl, imageUrl) {
   messageListElement.scrollTop = messageListElement.scrollHeight;
   messageInputElement.focus();
 }
-
+*/
 // Enables or disables the submit button depending on the values of the input
 // fields.
 function toggleButton() {
