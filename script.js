@@ -143,10 +143,10 @@ function voteForOption() {
     var address = document.getElementById("gmap_where").value;
 
     // document.getElementById("VoteId").innerHTML=address;
-<<<<<<< HEAD
+
     document.getElementById("myText").value = "";
     console.log(address)
-=======
+
     window.location.href = "voting1.html";
     //
    var vote = document.createElement("LI");
@@ -157,14 +157,6 @@ function voteForOption() {
    vote.appendChild(address)
    document.getElementById("places").appendChild(vote);
 
-
-
-
-<<<<<<< HEAD
-
->>>>>>> a0631872067e734001f8284870b35274b6c0c39c
-=======
->>>>>>> e05f9f475c061d095c99249099f0d837f10ce405
 }
 
 // initialization
