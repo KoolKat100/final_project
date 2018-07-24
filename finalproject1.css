@@ -5,11 +5,9 @@ body{
 	background-color: white;
 	margin: 0px;
 	padding: 10px 20px 30px 40px;
-<<<<<<< HEAD
 		}
 
 h1, h2{
-=======
 		}
 		/* The side navigation menu */
 		.sidenav {
@@ -35,7 +33,10 @@ h1, h2{
 		    transition: 0.3s;
 		}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f001ca39d0eee70cd7d7f42ed77872b400adec0c
 		/* When you mouse over the navigation links, change their color */
 		.sidenav a:hover{
 		    color: #f1f1f1;
@@ -100,6 +101,11 @@ p {
 	margin-left: 10%;
 	margin-right: 10%;
 	text-align: center;
+
+}
+p1 {
+	margin-left: 10%;
+	margin-right: 10%;
 
 }
 table {
