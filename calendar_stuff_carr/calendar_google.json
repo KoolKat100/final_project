@@ -1,8 +1,0 @@
-import google.oauth2.credentials
-import google_auth_oauthlib.flow
-
-flow = google_auth_oauthlib.flow.Flow.from_client_secrets_file(
-    "path_to_directory/client_secret.json",
-    scopes=["https://www.googleapis.com/auth/calendar"])
-
-flow.redirect_uri = 'https://www.example.com/oauth2callback'
