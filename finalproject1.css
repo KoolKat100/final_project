@@ -30,6 +30,7 @@ body{
 		    transition: 0.3s;
 		}
 
+<<<<<<< HEAD
 		/* When you mouse over the navigation links, change their color */
 		.sidenav a:hover{
 		    color: #f1f1f1;
@@ -56,6 +57,9 @@ body{
 		    .sidenav a {font-size: 18px;}
 		}
 h1, h2{
+=======
+h1, h2, h5{
+>>>>>>> 13a911b44527387b688e141a8432b751fb42d3ef
 	text-align: center;
 		}
 
