@@ -127,6 +127,7 @@
         var uid = user.uid;
         var providerData = user.providerData;
         showCalendar();
+
         // [START_EXCLUDE]
         document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
         document.getElementById('quickstart-sign-in').textContent = 'Sign out';
@@ -134,6 +135,7 @@
         if (!emailVerified) {
           document.getElementById('quickstart-verify-email').disabled = false;
         }
+        
         // [END_EXCLUDE]
       } else {
         // User is signed out.
