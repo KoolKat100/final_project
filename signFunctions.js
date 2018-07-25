@@ -5,7 +5,7 @@
     if (firebase.auth().currentUser) {
       // [START signout]
       firebase.auth().signOut();
-      window.location.href = "finalproject1.html";
+      window.location.href = "Calendarpage1.html";
       // [END signout]
     } else {
       var email = document.getElementById('email').value;
@@ -62,7 +62,8 @@
       if (errorCode == 'auth/weak-password') {
         alert('The password is too weak.');
       } else {
-        alert(errorMessage);
+        showCalendar();
+        //alert(errorMessage);
       }
       console.log(error);
       // [END_EXCLUDE]
@@ -126,7 +127,8 @@
         var isAnonymous = user.isAnonymous;
         var uid = user.uid;
         var providerData = user.providerData;
-        showCalendar();
+          mAuth.signOut();
+        //showCalendar();
 
         // [START_EXCLUDE]
         document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
@@ -134,8 +136,11 @@
         document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
         if (!emailVerified) {
           document.getElementById('quickstart-verify-email').disabled = false;
+
+            //showCalendar();
+
         }
-        
+
         // [END_EXCLUDE]
       } else {
         // User is signed out.
